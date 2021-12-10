@@ -8,7 +8,7 @@ Hexagonal Architecture란 육각형 아키텍쳐라는 뜻이다. 헥사고날 �
 ## Hexagonal Architecture의 장점?
 비즈니스로직이 어댑터에 의존하지 않아서, 비즈니스 로직만 테스트하기 유용하다. 
 
-## Layer간의 의존성
+## Spring에서 일반적으로 Layer간의 의존성
 시스템의 확장성과 유연성을 높이기 위해 Business Logic 결과 처리 영역(Presentation Layer, Data Access Layer)/Business Logic(Business Logic Layer)처리 영역을 구분하여 서로 영향을 받지 않도록 구현한다.
 
 * **Business Logic 결과 처리 영역**
@@ -17,7 +17,7 @@ Hexagonal Architecture란 육각형 아키텍쳐라는 뜻이다. 헥사고날 �
 
 * **Business Logic 처리 영역**
     
-    어플리케이션에서 제일 중요한 영역이다.
+    어플리케이션에서 제일 중요한 영역이다. 비즈니스 로직에 영향을 미치지 않는 것이 가장 좋은 설계이다. 
 
 
 ## SOLID원칙중 하나인 DIP
